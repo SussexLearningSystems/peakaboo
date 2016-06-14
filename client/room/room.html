@@ -66,7 +66,7 @@
                   <button type="button" id="peakaboo-rec-button" data-toggle="modal" data-target="#recordmodal" class="btn peakaboo-transport {{#if recording}}btn-danger{{else}}btn-default{{/if}} {{#if recControlsDisable}}disabled{{/if}}" title="Start Recording"><i class="glyphicon glyphicon-record text-danger"></i></button>
                 </div>
                 <div class="col-xs-4 text-center">
-                  <button type="button" id="peakaboo-pause-button" class="btn peakaboo-transport {{#if paused}}btn-info{{else}}btn-default{{/if}} {{#if controlsDisable}}disabled{{/if}}" title="Pause Recording"><i class="glyphicon glyphicon-pause"></i></button>
+                  <button type="button" id="peakaboo-pause-button" class="btn peakaboo-transport {{#if paused}}btn-info{{else}}btn-default{{/if}} {{#if controlsDisable}}disabled{{/if}}" title="{{#if paused}}Continue Recording{{else}}Pause Recording{{/if}}"><i class="glyphicon glyphicon-pause"></i></button>
                 </div>
                 <div class="col-xs-4 text-center">
                   <button type="button" id="peakaboo-stop-button" class="btn btn-default peakaboo-transport {{#if controlsDisable}}disabled{{/if}}" title="Stop Recording"><i class="glyphicon glyphicon-stop"></i></button>
