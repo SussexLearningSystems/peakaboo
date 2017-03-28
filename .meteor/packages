@@ -27,3 +27,4 @@ ppettit:accounts-ldap
 peerlibrary:async
 johdirr:meteor-git-rev
 atoy40:accounts-cas
+iron:middleware-stack@1.1.0
