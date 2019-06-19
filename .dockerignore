@@ -11,3 +11,5 @@ config
 tmp
 .docker/mongo
 .docker/nginx
+.dockerignore
+Dockerfile
