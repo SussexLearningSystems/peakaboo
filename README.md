@@ -72,12 +72,11 @@ Then run peakaboo!
 docker-compose up -d
 ```
 
-When there's a change peakaboo you can update the docker images by stopping the containers and re building the images
+When there's a change peakaboo you can update the docker images by running `docker-compose up` with the `--build` flag. This will rebuild the peakaboo docker container and start the newly created container.
 ```
-docker-compose stop
-docker-compose build peakaboo
-docker-compose up -d
+docker-compose up --build -d
 ```
+
 Client Side
 -----------
 
